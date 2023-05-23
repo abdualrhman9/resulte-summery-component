@@ -1,0 +1,159 @@
+/* Start Variables */
+:root {
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* background Gradients */
+    --gradient-slate-blue-background: hsl(252, 100%, 67%);
+    --gradient-royal-blue-background: hsl(241, 81%, 54%);
+
+    /* Gradients circle */
+    --gradient-Violet-blue-circle: hsla(256, 72%, 46%, 1);
+    --gradient-Persian-blue-circle: hsla(241, 72%, 46%, 0); 
+
+    --white: hsl(0, 0%, 100%);
+    --dark-gray-blud: hsl(224, 30%, 27%);
+    --light-lavender: hsl(241, 100%, 89%);
+}
+/* End Variables */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+}
+
+body {
+    font-family: "Hanken Grotesk";
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 18px;
+}
+
+.result {
+    background-image: linear-gradient(var(--gradient-slate-blue-background),var(--gradient-royal-blue-background));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.result h2 {
+    color: #CCC0FF;
+}
+
+.result .result-circle {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(var(--gradient-Violet-blue-circle),var(--gradient-Persian-blue-circle));
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.result .result-circle .score {
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+
+.result .result-circle .total {
+    color: #CCC0FF;
+}
+
+.result .text {
+    text-align: center;
+    padding: 10px;
+    color: var(--white);
+}
+
+.result .text h3 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+.result .text p {
+    width: 300px;
+    color: #CCC0FF;
+    margin-top: 0;
+}
+
+/* Start Summery */
+.summery {
+    padding: 0 20px 5px ;
+    background: var(--white);
+    box-shadow: 3px 5px 10px #E9EFFD;
+    flex-basis: 300px;
+}
+
+
+.summery h3 {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+
+.summery  .skill {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.summery  .reaction  {
+    background-color: #FFF6F5;
+}
+
+.summery .verbal  {
+    background-color: #F2FBFA;
+}
+
+.summery  .visual  {
+    background-color: #F1F3FC;
+}
+
+.summery  .skill svg {
+    width: 40px;
+}
+
+.summery  .skill p {
+    flex: 1;
+}
+
+.summery .skill .skill-score {
+    text-align: center;
+}
+
+button.btn-secondary {
+    outline: none;
+    background: var(--dark-gray-blud);
+    color: var(--white);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+/* End Summery */
+
