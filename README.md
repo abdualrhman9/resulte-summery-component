@@ -40,12 +40,10 @@ selectors on css was based on nasting format to make it easay for maintain and a
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
+I learned how to use css proparties like flex-box proparties to  distribute elements
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<body>Some HTML code I'm proud of</body>
 ```
 ```css
 .proud-of-this-css {
